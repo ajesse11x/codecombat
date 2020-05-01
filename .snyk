@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - async > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
+    - chunk-splitting-plugin > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
+    - mailchimp-api-v3 > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
+    - '@basicer/geoip-lite > async > lodash':
+        patched: '2020-05-01T05:06:05.375Z'
+    - extract-text-webpack-plugin > async > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
+    - geoip-lite > async > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
+    - webpack > async > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
+    - geoip-lite > eslint > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
+    - mongoose > async > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
+    - bitly > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
+    - geoip-lite > eslint > inquirer > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
+    - geoip-lite > eslint > table > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
+    - v-tooltip > lodash:
+        patched: '2020-05-01T05:06:05.375Z'
