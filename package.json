@@ -99,7 +99,7 @@
     "cookie-parser": "^1.4.3",
     "cookie-session": "^1.2.0",
     "country-list": "0.0.3",
-    "css-loader": "^0.25.0",
+    "css-loader": "^5.0.0",
     "d3": "~3.5.17",
     "deku": "^2.0.0-rc16",
     "delighted": "^1.2.0",
