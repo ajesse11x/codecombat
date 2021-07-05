@@ -47,7 +47,9 @@
     "analyzer": "COCO_ANALYZER_BUNDLE=1 webpack --profile --json > stats.json",
     "storybook": "start-storybook -s ./app/assets -p 6006",
     "build-storybook": "build-storybook",
-    "lint": "eslint --max-warnings 0 '**/*.{js,vue}'"
+    "lint": "eslint --max-warnings 0 '**/*.{js,vue}'",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "main": "index.js",
   "standard": {
@@ -172,7 +174,8 @@
     "webpack": "git://github.com/codecombat/webpack.git#webpack-3",
     "webpack-shell-plugin": "^0.5.0",
     "winston": "0.6.x",
-    "yamljs": "^0.2.8"
+    "yamljs": "^0.2.8",
+    "snyk": "^1.653.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
@@ -250,5 +253,6 @@
   "engines": {
     "node": "8.15.1",
     "npm": "^6.4.1"
-  }
+  },
+  "snyk": true
 }
